@@ -1,0 +1,21 @@
+.alert-custom{
+  padding: 15px 10px;
+  border-radius: 5px;
+  background: #56d756;
+  max-width: 400px;
+  transition: transform .3s ease-in-out;
+  transform: translateY(-180%);
+  .alert-custom__message{
+    color: #eee;
+  }
+}
+.trsf-default{
+  transform: translateY(0);
+}
+.alert-danger-custom{
+  background-color: red;
+}
+
+.alert-success-custom{
+  background-color: #1e991e;
+}
